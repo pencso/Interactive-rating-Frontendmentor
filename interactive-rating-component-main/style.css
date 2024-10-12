@@ -3,7 +3,7 @@
 :root {
 --White: hsl(0, 0%, 100%);
 --Light-Grey: hsl(217, 12%, 63%);
---Dark-Blue: hsl(213, 19%, 18%);
+--Dark-Blue: hsl(214, 30%, 14%);
 --Very-Dark-Blue: hsl(216, 12%, 8%);
 --Orange: hsl(25, 97%, 53%);
 }
@@ -37,21 +37,22 @@ main {
     letter-spacing: .1rem;
     font-size: .9rem;
     cursor: pointer;
+    color: black;
 }
 
 
 .card {
     background-color: var(--Dark-Blue);
     color: white;
-    padding: 1.7rem;
+    padding: 2rem;
     border-radius: 1.5rem;
-    width: clamp(350px, 400px, 90%);
-    height: 400px;
+    width: clamp(350px, 420px, 90%);
+    height: fit-content;
 }
 
 h1 {
-    font-size: 1.5rem;
-    margin-top: 1.5rem;
+    font-size: 1.7rem;
+    margin-top: 2rem;
 }
 
 .card p {
